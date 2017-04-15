@@ -1,6 +1,6 @@
-function ClozeCard(cloze,text) {
-  this.cloze = cloze;
+function ClozeCard(text,cloze) {
   this.text = text;
+  this.cloze = cloze;
   this.partialText = this.text.replace(this.cloze, "....");
 
   this.showCloze = function() {
